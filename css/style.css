@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* תפריט */
+
+header {
+  min-height: 10vh;
+  background: rgb(14, 13, 13);
+  border-bottom: rgb(250, 249, 249) solid 0.13rem;
+  position: sticky;
+  top: 0;
+}
+
+.Menu {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  align-items: center;
+  min-height: 10vh;
+}
+
+#logo {
+  margin-left: 2rem;
+  margin-top: 0.2rem;
+  border: rgba(255, 255, 255, 0.9) solid 1.2px;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 0.5rem;
+}
+
+.Menu ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.Menu ul li {
+  width: 10rem;
+}
+
+.Menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+}
+
+/* עמוד ראשי */
+
+.homepage {
+  width: 100%;
+  height: 100vh;
+  background: url("../Image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.homepage div {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.homepage div ul {
+  display: flex;
+  height: 300px;
+}
+
+.homepage div ul h1 {
+  color: white;
+  text-shadow: 1.2px 3.5px rgba(0, 0, 0, 0.3);
+  font-family: "Suez One", serif;
+  font-size: 9rem;
+  margin-right: 315px;
+  margin-top: 75px;
+  height: 300px;
+}
+/* עמוד מעמדות */
+
+.mamadotpage {
+  width: 100%;
+  height: 100vh;
+  background: url("../Image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.mamadotpage div {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.65);
+}
